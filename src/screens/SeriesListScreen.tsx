@@ -263,7 +263,6 @@ const SeriesListScreen: React.FC = () => {
         currentSort={currentSort}
       />
 
-      {/* Modal Sobre o App */}
       <Modal
         animationType="fade"
         transparent={true}
@@ -276,7 +275,7 @@ const SeriesListScreen: React.FC = () => {
               MyMoveries é um aplicativo para organizar suas listas de filmes e séries favoritos.
             </Text>
             <Text style={styles.aboutText}>
-              Versão 1.0.0
+              Versão 2.0.0
             </Text>
             <TouchableOpacity
               style={[styles.modalButton, styles.confirmButton, {width: '100%', marginTop: 20}]}
