@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "MyMoveries",
+    "slug": "MyMoveries",
+    "version": "2.3.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/mymoveriesicone.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./src/assets/images/mymoverieslogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4A0000"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/mymoveriesicone.png",
+        "backgroundColor": "#4A0000"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./src/assets/images/mymoveriesicone.png"
+    }
+  }
+}
